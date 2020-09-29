@@ -1,0 +1,39 @@
+.bigbox{width: 33%;
+height: 100%;
+background-color: black;
+display: flex;
+align-items: center;
+position: absolute; left: 0px;
+font-size: 3em;
+color: #f7e2c2;
+}
+.bigbox2{width: 33%;
+height: 100%;
+background-color: black;
+display: flex;
+align-items: center;
+position: absolute; right: 0px;
+font-size: 3em;
+color: #f7e2c2;}
+.box{width: 10%;
+     height: 20%;
+     background-color: #8a1b1b;
+     transition-property: all;
+     transition-duration: 2s;
+     float: left;
+    transform: scale(1, 1);
+    animation: off;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    font-size: 0.2em;
+    text-align: center;
+
+
+     }
+
+ .box:hover {transform: scale(0.5,0.5);
+           animation-play-state: running;}
+ 	        
+ 	@keyframes off{0% {opacity: 1}
+ 	100%{opacity: 0}}
